@@ -38,5 +38,11 @@
     <ClCompile Include="MurmurHash1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sketch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

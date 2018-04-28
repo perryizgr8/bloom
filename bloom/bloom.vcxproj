@@ -154,7 +154,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bloom.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="MurmurHash1.cpp" />
+    <ClCompile Include="sketch.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
