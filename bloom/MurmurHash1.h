@@ -28,7 +28,7 @@ typedef unsigned __int64 uint64_t;
 
 //-----------------------------------------------------------------------------
 
-uint32_t MurmurHash1        ( std::string key, uint32_t seed );
+uint32_t MurmurHash1        ( std::string key, uint32_t seed ) noexcept;
 uint32_t MurmurHash1Aligned ( const void * key, int len, uint32_t seed );
 
 //-----------------------------------------------------------------------------

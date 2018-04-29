@@ -20,7 +20,7 @@
 
 //-----------------------------------------------------------------------------
 
-uint32_t MurmurHash1 ( std::string key, uint32_t seed )
+uint32_t MurmurHash1 ( std::string key, uint32_t seed ) noexcept
 {
   const unsigned int m = 0xc6a4a793;
 
